@@ -1,4 +1,8 @@
 <nav>
-  <a href="{{ site.github.baseurl }}/">Home</a>
-  <a href="{{ site.github.baseurl }}/about.html">About</a>
+  <a href="{{ site.github.baseurl }}/" {% if page.url == "/" %}style="color: red;"{% endif %}>
+    Home
+  </a>
+  <a href="{{ site.github.baseurl }}/about.html" {% if page.url == "/about.html" %}style="color: red;"{% endif %}>
+    About
+  </a>
 </nav>

@@ -9,4 +9,4 @@ defaults:
     values:
       layout: "default"
 plugins:
-  -jekyll-seo-tag
+  - jekyll-seo-tag
